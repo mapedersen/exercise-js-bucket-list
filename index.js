@@ -71,7 +71,7 @@ list.replaceChild(newFirstChild, list.firstElementChild);
 
 // Task 11 //
 const newSecondChild = document.createElement("p");
-newSecondChild.innerText = "Move to Hongkong";
+newSecondChild.innerText = "Referee a world cup game";
 list.replaceChild(newSecondChild, list.children[Math.floor(list.children.length / 2)]);
 
 
